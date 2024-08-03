@@ -1,0 +1,59 @@
+/* .search-bar {
+    backgroundImage: 'url(./src/assets/searchbar-bg.jpg)';  
+    margin-left: 400px;
+    margin-right: auto;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  } */
+
+  .search-bar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px; /* Optional: Add padding if needed */
+    background-image: url('./src/assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px; /* Optional: Add border radius if you want rounded corners */
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .search-bar button:hover {
+    background-color: brown;
+  }
